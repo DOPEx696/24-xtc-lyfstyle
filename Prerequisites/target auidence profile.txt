@@ -1,0 +1,334 @@
+1. Lifestyle Profile
+Primary Lifestyle Type
+
+Urban, expressive, socially active, emotionally experience-driven.
+
+Daily Lifestyle Characteristics
+Late-night active routines
+Music-centric social life
+Café, pub, rooftop, festival, and travel culture
+Heavy digital consumption
+Aesthetic-focused purchasing behavior
+Values experiences over possessions
+Balances chaos with self-awareness
+Emotional Drivers
+Escapism
+Belonging
+Freedom
+Self-expression
+Exclusivity
+Mood elevation
+Creative identity
+Website UI Implication
+
+The website should feel:
+
+Cinematic
+Immersive
+Emotional
+Premium
+Slightly mysterious
+Not corporate
+Not overly commercial
+
+The UI should communicate:
+
+“You’re entering a culture, not buying a product.”
+
+2. Income Level
+Primary Audience Income Range (India)
+Core Segment
+₹25,000 – ₹1,20,000 monthly income
+Audience Breakdown
+Segment	Age	Income	Characteristics
+College + Creative Youth	18–24	₹15k–₹40k	Trend-driven, experimental
+Young Professionals	23–30	₹35k–₹1.2L	Premium buyers, nightlife spenders
+Creative Entrepreneurs	25–35	₹50k–₹2L+	Identity-driven consumers
+Spending Psychology
+
+The audience spends heavily on:
+
+Fashion
+Accessories
+Events
+Music experiences
+Premium consumables
+Aesthetic lifestyle products
+
+They do NOT buy based only on utility.
+
+They buy based on:
+
+Vibe
+Identity
+Social belonging
+Visual appeal
+Emotional attachment
+Website UI Implication
+
+The website should avoid:
+
+Discount-heavy appearance
+Cheap marketplace aesthetics
+Overloaded product grids
+Loud sales banners
+
+Instead:
+
+Minimal premium layouts
+Editorial-style presentation
+High-quality visuals
+Story-first product display
+Selective product showcasing
+3. Interests
+Core Interests
+Music Culture
+Underground music
+Techno
+Psytrance
+Hip-hop
+Alternative culture
+Festival experiences
+Creative Interests
+Streetwear
+Graphic art
+Tattoo culture
+Experimental visuals
+Photography
+Cinematic aesthetics
+Lifestyle Interests
+Travel
+Night drives
+Rooftop gatherings
+Café culture
+Conscious freedom
+Social bonding
+Digital Interests
+Instagram aesthetics
+Mood-based content
+Reels
+Visual storytelling
+Community culture
+Website UI Implication
+
+The website should visually resemble:
+
+A luxury underground brand
+A music-culture-inspired editorial platform
+A cinematic fashion experience
+
+Recommended UI directions:
+
+Dark luxury palette
+Grain textures
+Slow transitions
+Fullscreen visuals
+Ambient typography
+Mood-driven imagery
+
+Avoid:
+
+Generic Shopify aesthetics
+Bright e-commerce templates
+Overly functional layouts
+4. Behavior Patterns
+Consumer Behavior
+Discovery Behavior
+
+Users discover brands mainly through:
+
+Instagram
+Reels
+Friends
+Music communities
+Events
+Influencer aesthetics
+Attention Span
+Extremely low
+First 3–5 seconds matter heavily
+Browsing Style
+Scroll-heavy
+Visual-first
+Emotion-first
+Reads selectively
+Trust Signals
+
+They trust:
+
+Authenticity
+Community presence
+Visual consistency
+Cultural relevance
+
+They distrust:
+
+Over-marketing
+Fake luxury
+Corporate tone
+Hard selling
+Website UI Implication
+Homepage Must:
+Capture emotion immediately
+Use cinematic hero sections
+Create intrigue before explanation
+Navigation Should:
+Be minimal
+Reduce cognitive overload
+Feel fluid and premium
+Product Pages Should:
+Tell a story
+Include lifestyle imagery
+Focus on emotion + experience
+Avoid technical overload
+5. Buying Psychology
+What Actually Triggers Purchases
+Primary Triggers
+Emotional identity
+Belonging to a culture
+Scarcity
+Exclusivity
+Aesthetic attraction
+Social validation
+Secondary Triggers
+Sustainability
+Craftsmanship
+Brand philosophy
+Community access
+Psychological Purchase Pattern
+
+The user subconsciously asks:
+
+“Does this represent me?”
+“Will this improve my vibe/social identity?”
+“Is this culturally relevant?”
+“Does this feel exclusive?”
+“Will my circle appreciate this?”
+Website Conversion Strategy
+Important Elements
+Limited edition messaging
+Community-based language
+Mood-based photography
+Culture storytelling
+Event integration
+Exclusive early-access systems
+Less Effective
+Aggressive discounts
+Traditional sales copy
+Generic product descriptions
+“Buy now” pressure tactics
+6. Fashion & Music Preferences
+Fashion Style
+Preferred Aesthetic
+Minimal luxury
+Streetwear
+Dark aesthetics
+Vintage-modern fusion
+Relaxed premium fashion
+Fashion References
+Underground street culture
+Music artist aesthetics
+Festival-inspired fashion
+Modern opium-style visuals
+Music Preferences
+Most Relevant Genres
+Techno
+Psytrance
+Trap
+Hip-hop
+Indie electronic
+Experimental sounds
+
+Music is central to identity.
+
+The brand should visually feel like:
+
+A late-night playlist in visual form.
+
+Website UI Implication
+Recommended Design Language
+Cinematic black backgrounds
+Ivory/off-white typography
+Deep shadows
+Slow animations
+Atmospheric photography
+Experimental layouts
+Motion Design
+Smooth transitions
+Ambient hover effects
+Parallax visuals
+Motion without chaos
+7. Mobile vs Desktop Usage
+Usage Split
+Mobile Usage: 85–90%
+
+Primary discovery and browsing device.
+
+Desktop Usage: 10–15%
+
+Used mainly for:
+
+Deep browsing
+Larger purchases
+Brand exploration
+Mobile User Behavior
+Fast scrolling
+Thumb-focused interaction
+Vertical content consumption
+Short attention span
+Website Design Priority
+Mobile-First is Mandatory
+
+The mobile experience should be:
+
+Faster than visually complex competitors
+Smooth and cinematic
+Extremely optimized
+Important Mobile UX Principles
+Critical
+Large tap areas
+Fast loading
+Minimal text blocks
+Scroll storytelling
+Sticky navigation
+Smooth transitions
+Avoid
+Heavy popups
+Excessive text
+Complex menus
+Slow animations
+Overcrowded sections
+8. Community Behavior
+Community Identity
+
+The audience wants:
+
+Belonging
+Shared experiences
+Cultural recognition
+Emotional connection
+
+They do not want:
+
+A transactional customer relationship
+Community Structure
+Strongest Community Drivers
+Events
+Music
+Exclusive drops
+Insider access
+Shared lifestyle values
+Emotional Community Positioning
+
+The brand should feel like:
+
+An insider movement
+A creative tribe
+A responsible freedom culture
+Website Community Strategy
+Important Website Sections
+Events
+Artist collaborations
+Culture journal/blog
+Community gallery
+Loyalty circle
+Early-access membership
