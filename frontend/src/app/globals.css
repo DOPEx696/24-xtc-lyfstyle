@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color Presets matching Google Stitch designs */
+  --color-inverse-surface: #e5e2e1;
+  --color-on-secondary-container: #b8b9b4;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-tertiary-fixed-dim: #c7c7bc;
+  --color-primary-fixed-dim: #dbb8ff;
+  --color-surface-container-highest: #353534;
+  --color-outline-variant: #4c4355;
+  --color-primary-container: #9933ff;
+  --color-primary: #dbb8ff;
+  --color-surface-container-low: #1c1b1b;
+  --color-on-primary-fixed-variant: #6600b7;
+  --color-on-tertiary-fixed: #1b1c15;
+  --color-primary-fixed: #efdbff;
+  --color-on-surface: #e5e2e1;
+  --color-on-primary-fixed: #2b0053;
+  --color-on-secondary-fixed-variant: #454744;
+  --color-on-primary: #470083;
+  --color-secondary: #c6c7c2;
+  --color-surface-dim: #131313;
+  --color-on-background: #e5e2e1;
+  --color-tertiary-container: #717168;
+  --color-on-surface-variant: #cfc2d8;
+  --color-surface-container: #201f1f;
+  --color-surface: #131313;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-variant: #353534;
+  --color-inverse-primary: #850aeb;
+  --color-surface-container-high: #2a2a2a;
+  --color-background: #131313;
+  --color-secondary-fixed-dim: #c6c7c2;
+  --color-on-secondary-fixed: #1a1c19;
+  --color-error-container: #93000a;
+  --color-secondary-fixed: #e2e3de;
+  --color-on-tertiary-fixed-variant: #46473f;
+  --color-surface-bright: #393939;
+  --color-on-tertiary-container: #f7f6eb;
+  --color-on-error-container: #ffdad6;
+  --color-tertiary-fixed: #e4e3d8;
+  --color-secondary-container: #484a46;
+  --color-outline: #988ca1;
+  --color-surface-tint: #dbb8ff;
+  --color-inverse-on-surface: #313030;
+  --color-on-tertiary: #30312a;
+  --color-on-secondary: #2f312e;
+  --color-tertiary: #c7c7bc;
+  --color-on-primary-container: #fdf3ff;
+
+  /* Custom Spacing Constants */
+  --spacing-panel-padding: 32px;
+  --spacing-margin-mobile: 20px;
+  --spacing-margin-desktop: 64px;
+  --spacing-unit: 8px;
+  --spacing-gutter: 24px;
+
+  /* Border Radii - Brutalist style (stark 2px / 4px corners) */
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 9999px;
+
+  /* Font Families tied to Next.js font variables */
+  --font-sans: var(--font-plus-jakarta), sans-serif;
+  --font-display: var(--font-syne), sans-serif;
+  --font-accent: var(--font-orbitron), sans-serif;
+
+  /* Custom Font presets mapping */
+  --font-display-xl: var(--font-syne), sans-serif;
+  --font-headline-lg: var(--font-syne), sans-serif;
+  --font-headline-lg-mobile: var(--font-syne), sans-serif;
+  --font-headline-md: var(--font-syne), sans-serif;
+  --font-body-lg: var(--font-plus-jakarta), sans-serif;
+  --font-body-md: var(--font-plus-jakarta), sans-serif;
+  --font-label-sm: var(--font-orbitron), sans-serif;
+}
+
+:root {
+  --background: #121212;
+  --foreground: #F7F7F2;
+}
+
+body {
+  background-color: var(--background);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.025'/%3E%3C/svg%3E");
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta), Arial, sans-serif;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background-color: rgba(30, 30, 30, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(219, 184, 255, 0.08);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel:hover {
+  border-color: rgba(219, 184, 255, 0.25);
+  box-shadow: 0 0 20px rgba(153, 51, 255, 0.15);
+}
+
+/* Custom Gradient Atmosphere Orbs */
+.atmosphere-orb {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(153, 51, 255, 0.12) 0%, rgba(153, 51, 255, 0) 70%);
+  filter: blur(100px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Hide scrollbar for clean UI details */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

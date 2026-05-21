@@ -1,0 +1,33 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Profile {
+  id            String   @id @default(uuid())
+  email         String   @unique
+  username      String?
+  monogram      String?
+  loyaltyPoints Int      @default(100)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  orders        Order[]
+}
+
+model Order {
+  id                 String   @id @default(uuid())
+  amount             Float
+  currency           String   @default("INR")
+  status             String   @default("PENDING")
+  razorpayOrderId    String?  @unique
+  razorpayPaymentId  String?  @unique
+  razorpaySignature  String?
+  createdAt          DateTime @default(now())
+  profileId          String?
+  profile            Profile? @relation(fields: [profileId], references: [id])
+  items              String
+}

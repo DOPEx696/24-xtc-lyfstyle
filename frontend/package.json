@@ -1,0 +1,28 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "canvas-confetti": "^1.9.4",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.469.0",
+    "next": "15.5.18",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "razorpay": "^2.9.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.18",
+    "prisma": "^6.2.1",
+    "tailwindcss": "^4"
+  }
+}
